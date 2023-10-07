@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: small;
+}
+
+/* navbar */
+.nav-link {
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+/* overlay */
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+.overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.image-text {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(10, 167, 167, 0.37);
+    color: whitesmoke;
+    padding: 30px;
+}
+
+
+/* Task cards css */
+.card1 {
+    border: 1px solid rgb(150, 149, 149);
+    padding: 40px;
+}
+
+.card2 {
+    padding-bottom: 15px;
+}
+
+.card-title {
+    padding-top: 10px;
+}
+
+
+/* footer bar css */
+.footer ul li a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    background-color: aliceblue;
+    border-right: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-right: 30px;
+}
+
+.card-title ul li {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    padding-right: 30px;
+}
+
+.logo-footer ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.logo-footer ul li {
+    margin: 0 10px;
+}
+
+.logo-footer li img {
+    width: 10px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
