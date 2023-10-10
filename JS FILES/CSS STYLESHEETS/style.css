@@ -7,8 +7,25 @@
 
 /* navbar */
 .nav-link {
-    font-size: 20px;
+    font-size: 16px;
     color: whitesmoke;
+    padding-bottom: 10px;
+}
+
+#btn {
+    font-size: 13px;
+    color: whitesmoke;
+    background-color: #0d6efd;
+    border-radius: 7px;
+    position: absolute;
+    top: 12px;
+    right: 0;
+    padding-right: 15px;
+}
+
+.important {
+    font-weight: bold;
+
 }
 
 /* overlay */
@@ -39,7 +56,7 @@
 /* Task cards css */
 .card1 {
     border: 1px solid rgb(150, 149, 149);
-    padding: 40px;
+    padding: 50px;
 }
 
 .card2 {
